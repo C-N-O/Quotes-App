@@ -34,7 +34,7 @@ const QuotesContainer = ({ quotesData, fetchQuotes }) => {
     setSlideOn(true);
     intervalRef.current = setInterval(() => {
       setRandomNum(Math.floor(Math.random() * MAX) + 1);
-    }, 6000);
+    }, 8000);
     return () => {
       clearInterval(intervalRef.current);
     };
