@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+
+.firstSlide h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6rem;
+  margin: 1rem;
+}
+
+.firstSlide p {
+  font-size: 3rem;
+  font-family: 'Marck Script', cursive;
+  margin: 0.5rem;
+}
+
+.quote-slide h1 {
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1rem;
+}
+
+.quote-slide p {
+  font-size: 3rem;
+  font-family: 'Marck Script', cursive;
+  margin: 0.5rem;
+}
+
+.btn-start {
+  left: 50%;
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0 auto;
+  background-color: rgb(128, 255, 0);
+  color: #000;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .quote-slide h1,
+  .firstSlide h1 {
+    font-size: 3rem;
+  }
+
+  .quote-slide p {
+    font-size: 2rem;
+  }
+}
